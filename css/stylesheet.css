@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+.container{
+  margin: 15px;
+  overflow: hidden;
+  margin-bottom: 290px;
+}
+
+body {
+  height: 600px;
+  width: 100%;
+  margin: 0;
+  border: 3px solid black;
+
+}
+
+.box {
+  margin: 15px;
+  background-color: grey;
+  font-family: 'Times New Roman', Times, serif;
+  border: 4px solid black;
+  width: 30%;
+  height: 150px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+p.submenu {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  float: right;
+  margin-top: 0;
+  border: 2px solid black;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+p.content {
+  margin-left: 8px;
+  margin-right: 8px;
+  clear: right;
+  font-weight: bold;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+#sub1 {
+  background-color: palevioletred;
+}
+
+#sub2 {
+  background-color: rgba(255, 0, 0, 0.866);
+  color: white;
+
+}
+
+#sub3 {
+  background-color: rgba(255, 255, 0, 0.518);
+}
+
+.header {
+  width: 100%;
+  height: 20px;
+  background-color: grey;
+  margin: 0;
+}
+
+@media (min-width: 992px) {
+  .container > .box {
+    width: 30%;
+    float: left;
+  }
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+ .container > .box {
+    width: 46%;
+    float: left;
+  
+  }
+  
+  .container > .box#box3 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .container > .box {
+     width: 50%;
+     float: left;
+   
+   }
+  
+ }
