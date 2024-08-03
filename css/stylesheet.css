@@ -97,6 +97,12 @@ p.content {
   .container > .box#box3 {
     width: 95%;
   }
+
+  .container{
+    margin: 15px;
+    overflow: hidden;
+    margin-bottom: 200px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -107,5 +113,11 @@ p.content {
   
    
    }
+
+   .container{
+    margin: 15px;
+    overflow: hidden;
+    margin-bottom: 100px;
+  }
   
  }
